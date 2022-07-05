@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+int N,count,i,x;
+    cin>>N;
+    for(int x=1;x<=N;x++)
+    {
+        count=0;
+         for(int i=2;i<=x;i++)
+         {
+             if(x%i==0)
+                 count=count+1;
+         } 
+         
+        if(count==1)
+            cout<<x<<endl;
+         }
+    }
+    
+ 
